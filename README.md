@@ -1,5 +1,8 @@
 # Use See Django
 
+[<img src="Image/init.png">](Image/init.png)  
+
+
 # how to start  
 ---
   * first clone this repo:  
