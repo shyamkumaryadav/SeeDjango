@@ -33,7 +33,9 @@ class Index extends Component {
 
     render() {
         return (
-            <h1>Shyam on React </h1>
+            <div>
+                <h1 onDoubleClick={() => alert('sasklsk alskla ')}>Shyam on React </h1>
+            </div >
             // <ul>
             //     {this.state.data.map(contact => {
             //         return (
