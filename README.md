@@ -1,5 +1,4 @@
 # SeeDjango
-  This system is named as Tea Stall Management System. This system helps the tea stall owners to take orders and to deliver them easily. This system helps the customers to place orders easily and to make payments.
 
 ---
 # how to start  
