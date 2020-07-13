@@ -1,8 +1,8 @@
 from django.contrib import admin
-from django.urls import path
-from django.views.generic import TemplateView
+from django.urls import path, include
 
 urlpatterns = [
-    path('', TemplateView.as_view(template_name='index.html')),
+    path('', include('gui.urls')),
+    path('api/', include('tea.urls')),
     path('admin/', admin.site.urls),
 ]
