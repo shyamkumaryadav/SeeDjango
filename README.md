@@ -1,4 +1,6 @@
 # SeeDjango
+# it's amazing
+
 
 ---
 # how to start  
