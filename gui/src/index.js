@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-// import 'android.chrome-512x512.png'
 import App from "./components/App"
+
+
 class Index extends Component {
     
     render() {

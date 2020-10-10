@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "dependencies": {
     "antd": "^4.4.2",
+    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -17,7 +18,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "dev": "webpack --mode development ./src/index.js --output ./static/gui/main.js",
+    "dev": "webpack --mode development --watch ./src/index.js --output ./static/gui/main.js",
     "build": "webpack --mode production ./src/index.js --output ./static/gui/main.js"
   },
   "keywords": [],
